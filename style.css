@@ -1,0 +1,100 @@
+body {
+    background-color: #f4f4f9;
+	font-family: Tahoma;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	width: 100vw;
+}
+ /* calculator */
+#container {
+	width: 200px;
+	padding: 8px 8px 20px 8px;
+	margin: 20px auto;
+    background-color: #e8e8e8;
+	border-radius: 4px;
+	border-top: 2px solid #ffffff;
+	border-right: 2px solid #ffffff;
+	border-bottom: 2px solid #d1d1d1;
+	border-left: 2px solid #d1d1d1;
+	box-shadow: -3px 3px 7px rgba(0, 0, 0, 0.1), inset -100px 0px 100px rgba(255, 255, 255, .5);
+}
+
+#display {
+	display: block;
+	margin: 15px auto;
+	height: 42px;
+	width: 174px;
+	padding: 0 10px;
+	border-radius: 50px;
+	border-top: 2px solid #d1d1d1;
+	border-right: 2px solid #d1d1d1;
+	border-bottom: 2px solid #ffffff;
+	border-left: 2px solid #ffffff;
+	background-color: #ffffff;
+	box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1), inset 0px -20px 1px rgba(150, 150, 150, 0.2);
+	font-size: 28px;
+	color: #333;
+	text-align: right;
+	font-weight: 400;
+}
+
+.button {
+	display: inline-block;
+	margin: 2px;
+	width: 42px;
+	height: 42px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 4px;
+}
+
+.mathButtons {
+	margin: 2px 2px 6px 2px;
+	color: #ffffff;
+	text-shadow: -1px -1px 0px #44006F;
+	background-color: #a1c3d1;
+	border-top: 2px solid #d1d1d1;
+	border-right: 2px solid #d1d1d1;
+	border-bottom: 2px solid #7a9a9f;
+	border-left: 2px solid #7a9a9f;
+	box-shadow: 0px 0px 2px #7a9a9f, inset 0px -20px 1px #7a9a91;
+}
+
+.digits {
+	color: #333;
+	text-shadow: 1px 1px 0px #FFF;
+	background-color: #d4e6f1;
+	border-top: 2px solid #ffffff;
+	border-right: 2px solid #ffffff;
+	border-bottom: 2px solid #d1d1d1;
+	border-left: 2px solid #d1d1d1;
+	border-radius: 4px;
+	box-shadow: 0px 0px 2px #7a9a9f, inset 0px -20px 1px #d1d1d1;
+}
+
+.digits:hover,
+.mathButtons:hover,
+#clearButton:hover {
+	background-color: #b3e5fc;
+	box-shadow: 0px 0px 2px #b3e5fc, inset 0px -20px 1px #81d4fa;
+	border-top: 2px solid #ffffff;
+	border-right: 2px solid #ffffff;
+	border-bottom: 2px solid #a2c2d4;
+	border-left: 2px solid #a2c2d4;
+}
+
+#clearButton {
+	color: #ffffff;
+	text-shadow: -1px -1px 0px #44006F;
+	background-color: #ff6f61;
+	border-top: 2px solid #ff9f9f;
+	border-right: 2px solid #ff9f9f;
+	border-bottom: 2px solid #c82333;
+	border-left: 2px solid #c82333;
+	box-shadow: 0px 0px 2px #030303, inset 0px -20px 1px #b00000;
+}
